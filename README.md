@@ -23,11 +23,20 @@ Please write clean & maintainable code to implement the relevant functionality. 
 * Support API 8 (optional)
 
 ### Bonus questions
-* If URL of webview changes, will application load content from new URL?
+* If URL of webview changes, will application load content from new URL? = YES
 * We would like to have a link in webview, that will open some native screen in application. Is it possible? How would you do it?
+    = YES, I can handle it in following method
+    @Override
+     public void onReceivedError(WebView view, int errorCode, String description, String failingUrl) {
+      super.onReceivedError(view, errorCode, description, failingUrl);
+
+      }
+
+     As you can see in my code, I am handling phone call
+
 
 ### Todo
 * In GitHub, fork this repository to you own account
 * The solution, after finished, should be send as pull request to original HQ repository.
-* Log your manhour and provide that infomation back in the pull request detail.
+* Log your manhour and provide that infomation back in the pull request detail. = 4 hour
 * Attach final APK in this repository
