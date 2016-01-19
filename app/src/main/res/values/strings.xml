@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AndroidRound1</string>
+    <string name="error_server">There seems to be some problem, Please try again.</string>
+    <string name="label_not_valid_url">Not a Valid Url.</string>
+    <string name="label_not_network">No Network Avaliable</string>
+    <string name="label_retry">Retry</string>
+    <string name="label_ok">OK</string>
+</resources>
